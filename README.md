@@ -1,9 +1,25 @@
-![alt text](https://github.com/ju1464/N.I.B._Icon_Theme/blob/master/LOGO.svg)
+## N.I.B. icons  
+  
+Requires:  
 
-# N.I.B._Icon_Theme
+```shell
+sudo bash -c "$(curl -LSs https://github.com/dfmgr/installer/raw/master/install.sh)"
+```
 
-**Nativity In Black** *(N.I.B.)* is a dark icon theme in which black is mixed as a nexus of union with bright colors.
-It is primarily intended for use in lights themes, but may also work on darks as well.
+Automatic:
 
-![alt text](https://github.com/ju1464/N.I.B._Icon_Theme/blob/master/PREVIEWS/Preview01.png)
-![alt text](https://github.com/ju1464/N.I.B._Icon_Theme/blob/master/PREVIEWS/Preview02.png)
+```shell
+bash -c "$(curl -LSs https://github.com/iconmgr/N.I.B./raw/master/install.sh)"
+```
+
+Install:
+
+```shell
+sudo iconmgr install N.I.B.
+```
+
+Update:
+
+```shell
+sudo iconmgr update N.I.B.
+```
