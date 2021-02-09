@@ -81,7 +81,7 @@ ensure_perms
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 # Main progam
-
+if __am_i_online; then
 if [ -d "$APPDIR/.git" ]; then
   execute \
     "git_update $APPDIR" \
@@ -91,9 +91,9 @@ else
     "git_clone $REPO/$APPNAME $APPDIR" \
     "Installing $APPNAME configurations"
 fi
-
 # exit on fail
 failexitcode
+fi
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
